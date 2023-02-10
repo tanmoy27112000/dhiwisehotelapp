@@ -1,0 +1,7 @@
+import 'package:get/get.dart';import 'package:hotelapp/data/models/selectionPopupModel/selection_popup_model.dart';class FillProfileModel {DateTime selectedLabelTxt = DateTime.now();
+
+Rx<String> labelTxt = Rx("lbl_date_of_birth".tr);
+
+RxList<SelectionPopupModel> dropdownItemList = [SelectionPopupModel(id:1,title:"Item One",isSelected:true,),SelectionPopupModel(id:2,title:"Item Two",),SelectionPopupModel(id:3,title:"Item Three",)].obs;
+
+ }
